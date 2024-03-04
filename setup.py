@@ -46,7 +46,7 @@ setuptools.setup(
             "nbconvert",
             "nbformat",
             "pre-commit",
-            "pydantic==1.10.9",
+            "pydantic==2.6.3",
             "pytest-asyncio",
             "pytest>=6.1.1",
             "sympy",
@@ -54,7 +54,7 @@ setuptools.setup(
             "wolframalpha",
         ],
         "blendsearch": ["flaml[blendsearch]"],
-        "mathchat": ["sympy", "pydantic==1.10.9", "wolframalpha"],
+        "mathchat": ["sympy", "pydantic==2.6.3", "wolframalpha"],
         "retrievechat": ["chromadb", "tiktoken", "sentence_transformers", "pypdf"],
     },
     classifiers=[
